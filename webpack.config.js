@@ -2,6 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const ESLintPlugin = require('eslint-webpack-plugin');
+const Dotenv = require('dotenv-webpack');
 
 module.exports = {
   entry: './src/index.js',
@@ -10,11 +11,12 @@ module.exports = {
     path: path.resolve(__dirname, 'dist')
   },
   devServer: {
-    contentBase: './dist'
+    // contentBase: './dist'
   },
   devtool: 'eval-source-map',
   plugins: [
     new ESLintPlugin(),
+    new Dotenv(),
     new CleanWebpackPlugin({
       verbose: true
     }),
