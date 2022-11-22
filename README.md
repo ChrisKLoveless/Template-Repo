@@ -24,7 +24,7 @@
 
 ## API Setup
 
-* Create a .env folder in the root directory to store the API keys
+* Create a ```.env``` folder in the root directory to store the API keys
 
 
 ## Known Bugs
