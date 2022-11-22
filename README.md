@@ -15,12 +15,17 @@
 
 ## Setup/Installation Requirements
 
-* Clone down the git repo to the desktop
-* Install all packages with $ npm install  
-* Build the project with webpack using $ npm run build 
-* Start a live development server with $ npm run start
-* Lint JavaScript files with $ npm run lint
-* Run tests with Jest using npm run test
+* Clone down the git repo to the ```desktop```
+* Install all packages with ```$ npm install``` 
+* Build the project with webpack using ```$ npm run build``` 
+* Start a live development server with ```$ npm run start```
+* Lint JavaScript files with ```$ npm run lint```
+* Run tests with Jest using ```npm run test```
+
+## API Setup
+
+* Create a .env folder in the root directory to store the API keys
+
 
 ## Known Bugs
 
